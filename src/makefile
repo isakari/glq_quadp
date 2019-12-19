@@ -2,8 +2,8 @@ TARGET = ../bin/a.out
 
 FC = gfortran
 USE_OPENMP = 1
-OPT = 1
-#DBG = 1
+#OPT = 1
+DBG = 1
 OBJS = module_qlapack.o module_gauss_legendre_quadrature.o main.o 
 GFORTRAN = gfortran
 IFORT = ifort

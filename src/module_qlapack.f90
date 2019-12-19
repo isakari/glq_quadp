@@ -1893,7 +1893,7 @@ contains
     !     Compute the eigenvalues and eigenvectors of the tridiagonal
     !     matrix.
     !
-    if( icompz.eq.2 ) call zlaset( 'Full', n, n, czero, cone, z, ldz )
+    if( icompz.eq.2 ) call qzlaset( 'Full', n, n, czero, cone, z, ldz )
     !
     nmaxit = n*maxit
     jtot = 0

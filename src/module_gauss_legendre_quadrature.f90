@@ -28,7 +28,7 @@ contains
     
     td(:)=0.q0
     do i=1,n-1
-       tl(i)=dble(i)/sqrt((2.q0*i-1.0q0)*(2.0*i+1.q0))
+       tl(i)=dble(i)/sqrt((2.q0*i-1.0q0)*(2.q0*i+1.q0))
     end do
 
     q(:,:)=cmplx(0.q0,0.q0,kind(1.q0))
